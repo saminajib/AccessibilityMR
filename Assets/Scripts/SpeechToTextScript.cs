@@ -62,11 +62,34 @@ public class SpeechRecognitionTest : MonoBehaviour {
         }
     }
 
+    private void DetectEmotion(string transcribedText) {
+        HuggingFaceAPI.TextClassification(transcribedText, emotionResponse => {
+            text.color = Color.cyan;
+            Debug.Log(emotionResponse);
+
+            float positiveScore = 0f;
+            foreach (var classification in emotionResponse.classifications) {
+                // Check for the POSITIVE label
+                if (classification.label == "POSITIVE") {
+                    positiveScore = classification.score;  // Extract the score for POSITIVE label
+                    break;
+                }
+            }
+
+            if (positiveScore > 0.5f) 
+                text.color = new Color(0.56f, 1f, 0.56f); 
+            else
+                text.color = new Color(1f, 0.75f, 0.80f); 
+
+        }, error => {
+            Debug.Log(error);
+        });
+    }
+
     private void SendRecording(byte[] audioBytes) {
-        text.color = Color.yellow;
         HuggingFaceAPI.AutomaticSpeechRecognition(audioBytes, response => {
-            text.color = Color.green;
             text.text = response;
+            DetectEmotion(response);
         }, error => {
             text.color = Color.red;
             text.text = error;
