@@ -71,17 +71,18 @@
     <Compile Include="Assets/MRTemplateAssets/Scripts/GoalManager.cs" />
     <Compile Include="Assets/MRTemplateAssets/Scripts/GazeTooltips.cs" />
     <Compile Include="Assets/MRTemplateAssets/Scripts/ZoneScale.cs" />
+    <Compile Include="Assets/MRTemplateAssets/Scripts/TurnToFace.cs" />
+    <Compile Include="Assets/Scripts/SpeechToTextScript.cs" />
+    <Compile Include="Assets/MRTemplateAssets/Scripts/SpawnedObjectsManager.cs" />
+    <Compile Include="Assets/MRTemplateAssets/Scripts/PermissionsManager.cs" />
+    <Compile Include="Assets/MRTemplateAssets/Scripts/XRBlaster.cs" />
     <Compile Include="Assets/MRTemplateAssets/Scripts/PinchVizController.cs" />
     <Compile Include="Assets/MRTemplateAssets/Scripts/LaunchProjectile.cs" />
     <Compile Include="Assets/MRTemplateAssets/Scripts/PositionAtStart.cs" />
     <Compile Include="Assets/MRTemplateAssets/Scripts/FadeMaterial.cs" />
-    <Compile Include="Assets/MRTemplateAssets/Scripts/TurnToFace.cs" />
     <Compile Include="Assets/MRTemplateAssets/Scripts/VideoTimeScrubControl.cs" />
     <Compile Include="Assets/MRTemplateAssets/Scripts/VideoPlayerRenderTexture.cs" />
     <Compile Include="Assets/MRTemplateAssets/Scripts/PlaneTrackingModeVisualizer.cs" />
-    <Compile Include="Assets/MRTemplateAssets/Scripts/SpawnedObjectsManager.cs" />
-    <Compile Include="Assets/MRTemplateAssets/Scripts/PermissionsManager.cs" />
-    <Compile Include="Assets/MRTemplateAssets/Scripts/XRBlaster.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
@@ -1179,6 +1180,10 @@
     </Reference>
     <Reference Include="Unity.Multiplayer.Center.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">

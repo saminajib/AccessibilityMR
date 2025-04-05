@@ -64,21 +64,21 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.42f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Scripts/OneEuroFilterVector3.cs" />
     <Compile Include="Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Scripts/HideObjectWhenInteractorBlocked.cs" />
-    <Compile Include="Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Scripts/PokeGestureDetector.cs" />
-    <Compile Include="Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/HandsDemoSceneAssets/Scripts/ToggleGraphicToggler.cs" />
     <Compile Include="Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Scripts/HandsOneEuroFilterPostProcessor.cs" />
     <Compile Include="Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/HandsDemoSceneAssets/Scripts/PokeBlendShapeAnimator.cs" />
-    <Compile Include="Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Scripts/Vector3ScaleAffordanceReceiver.cs" />
-    <Compile Include="Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Scripts/LocalPositionOffsetAffordanceReceiver.cs" />
     <Compile Include="Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/HandsDemoSceneAssets/Scripts/TransformSync.cs" />
-    <Compile Include="Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Scripts/ValueDerivedButtonReader.cs" />
     <Compile Include="Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/HandsDemoSceneAssets/Scripts/ObjectResetPlane.cs" />
     <Compile Include="Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/HandsDemoSceneAssets/Scripts/ToggleGameObject.cs" />
     <Compile Include="Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Scripts/MetaSystemGestureDetector.cs" />
-    <Compile Include="Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Scripts/PinchPointFollow.cs" />
     <Compile Include="Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Scripts/ReleaseThresholdButtonReader.cs" />
+    <Compile Include="Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Scripts/OneEuroFilterVector3.cs" />
+    <Compile Include="Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Scripts/PokeGestureDetector.cs" />
+    <Compile Include="Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/HandsDemoSceneAssets/Scripts/ToggleGraphicToggler.cs" />
+    <Compile Include="Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Scripts/Vector3ScaleAffordanceReceiver.cs" />
+    <Compile Include="Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Scripts/LocalPositionOffsetAffordanceReceiver.cs" />
+    <Compile Include="Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Scripts/ValueDerivedButtonReader.cs" />
+    <Compile Include="Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Scripts/PinchPointFollow.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/HandsInteractionDemo.asmdef" />
@@ -575,6 +575,22 @@
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library/PackageCache/com.unity.nuget.mono-cecil@d6f9955a5d5f/Mono.Cecil.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@50ac96531b63/Lib/Editor/log4netPlastic.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Plastic.Newtonsoft.Json">
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@50ac96531b63/Lib/Editor/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@50ac96531b63/Lib/Editor/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@50ac96531b63/Lib/Editor/unityplastic.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">

@@ -64,9 +64,9 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.42f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Samples/XR Hands/1.5.0/HandVisualizer/Scripts/JointVisualizer.cs" />
     <Compile Include="Assets/Samples/XR Hands/1.5.0/HandVisualizer/Scripts/HandProcessor.cs" />
     <Compile Include="Assets/Samples/XR Hands/1.5.0/HandVisualizer/Scripts/HandVisualizer.cs" />
+    <Compile Include="Assets/Samples/XR Hands/1.5.0/HandVisualizer/Scripts/JointVisualizer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Samples/XR Hands/1.5.0/HandVisualizer/Unity.XR.Hands.Samples.VisualizerSample.asmdef" />
@@ -562,6 +562,22 @@
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library/PackageCache/com.unity.nuget.mono-cecil@d6f9955a5d5f/Mono.Cecil.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@50ac96531b63/Lib/Editor/log4netPlastic.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Plastic.Newtonsoft.Json">
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@50ac96531b63/Lib/Editor/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@50ac96531b63/Lib/Editor/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@50ac96531b63/Lib/Editor/unityplastic.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
