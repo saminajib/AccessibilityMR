@@ -65,7 +65,6 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.42f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/EnvLoader.cs" />
     <Compile Include="Assets/MRTemplateAssets/Scripts/XRPokeFollowAffordanceFill.cs" />
     <Compile Include="Assets/MRTemplateAssets/Scripts/FadePlaneMaterial.cs" />
     <Compile Include="Assets/MRTemplateAssets/Scripts/HandSubsystemManager.cs" />
@@ -83,6 +82,7 @@
     <Compile Include="Assets/MRTemplateAssets/Scripts/PositionAtStart.cs" />
     <Compile Include="Assets/MRTemplateAssets/Scripts/FadeMaterial.cs" />
     <Compile Include="Assets/MRTemplateAssets/Scripts/VideoTimeScrubControl.cs" />
+    <Compile Include="Assets/Scripts/EnvConfig.cs" />
     <Compile Include="Assets/Scripts/SceneLoader.cs" />
     <Compile Include="Assets/MRTemplateAssets/Scripts/VideoPlayerRenderTexture.cs" />
     <Compile Include="Assets/MRTemplateAssets/Scripts/PlaneTrackingModeVisualizer.cs" />
